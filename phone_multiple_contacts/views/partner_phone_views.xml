@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="partner_phone_view_tree" model="ir.ui.view">
+        <field name="name">partner.phone.tree</field>
+        <field name="model">partner.phone</field>
+        <field name="arch" type="xml">
+            <list editable="bottom">
+                <field name="sequence" widget="handle"/>
+                <field name="label"/>
+                <field name="phone" widget="phone"/>
+                <field name="note"/>
+            </list>
+        </field>
+    </record>
+
+</odoo>
