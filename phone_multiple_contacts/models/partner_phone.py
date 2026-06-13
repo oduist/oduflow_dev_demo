@@ -14,6 +14,7 @@ class PartnerPhone(models.Model):
             ('work', 'Work'),
             ('home', 'Home'),
             ('fax', 'Fax'),
+            ('whatsapp', 'WhatsApp'),
             ('other', 'Other'),
         ],
         default='mobile',
